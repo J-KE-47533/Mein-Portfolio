@@ -1,0 +1,28 @@
+/* Grundzustand aller Scroll-Elemente */
+[data-scroll] {
+  opacity: 0;
+  transition: opacity 1.2s ease, transform 1.2s ease;
+}
+
+/* Richtungseffekte */
+[data-scroll="left"] {
+  transform: translateX(-80px);
+}
+
+[data-scroll="right"] {
+  transform: translateX(80px);
+}
+
+[data-scroll="top"] {
+  transform: translateY(-80px);
+}
+
+[data-scroll="bottom"] {
+  transform: translateY(80px);
+}
+
+/* Sobald sichtbar */
+.scroll-in {
+  opacity: 1;
+  transform: translateX(0) translateY(0);
+}

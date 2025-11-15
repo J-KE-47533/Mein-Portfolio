@@ -104,6 +104,14 @@ iframe {
   transform: rotate(0deg); /* Dreht den Pfeil um 180 Grad */
 }
 
+figure {
+  margin: 0;
+}
+
+picture {
+  width: 100%;
+  height: 100%;
+}
 
 @media screen and (min-width: 760px) {
 

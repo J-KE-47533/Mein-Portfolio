@@ -1,5 +1,5 @@
 header {
-    height: 100vh;
+    height: 100dvh;
 }
 
 .section {
@@ -13,7 +13,6 @@ h1 {
     line-height: 38pt;
     margin: 0;
     margin-bottom: 45px;
-    text-align: center;
 }
 
 h1 span {
@@ -97,6 +96,8 @@ body.kontakt textarea[id="nachricht"] {
 body.kontakt .form-section {
     height: unset;
 }
+
+
  
 /* Small */
 
@@ -117,6 +118,7 @@ body.kontakt .form-section {
         margin-top: 3rem !important;
         height: calc(100vh - 3rem);
     }
+    
 }
 
 @media screen and (min-width: 992px) {
@@ -131,6 +133,14 @@ body.kontakt .form-section {
     header .img-absolute-ct {
     width: 30%;
     }
+
+    h1 {
+        font-size: 60px;
+        line-height: 70px;
+        span {
+            font-size: 33.75px;
+        }
+    }
 }
 
 @media screen and (min-width:1200px) {
@@ -142,7 +152,9 @@ body.kontakt .form-section {
 }
 
 @media screen and (min-width:1364px) {
-
+    .section {
+        padding: 17rem 0;
+    }
 }
 
 

@@ -1,143 +1,133 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Konfigurieren Sie Ihr Lieblinkgsmüsli | MyMixx</title>
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/style.breakpoints.css">
-    <link rel="stylesheet" href="css/breakpoints.css">
-    <link rel="stylesheet" href="css/lightbox.css">
-    <link rel="stylesheet" href="css/helper.css">
-    <link rel="stylesheet" href="css/form.css">
-    <link rel="stylesheet" href="css/form-error.css">
-    <link rel="stylesheet" href="css/merkzettel.css">
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Konfigurieren Sie Ihr Lieblinkgsmüsli | MyMixx</title>
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/style.breakpoints.css">
+        <link rel="stylesheet" href="css/breakpoints.css">
+        <link rel="stylesheet" href="css/lightbox.css">
+        <link rel="stylesheet" href="css/helper.css">
+        <link rel="stylesheet" href="css/form.css">
+        <link rel="stylesheet" href="css/form-error.css">
+        <link rel="stylesheet" href="css/merkzettel.css">
+    </head>
 
-<body class="kontakt">
-    <div class="navmain" id="navmain">
-        <div class="row vertical-align">
-            <div class="col-2">
-                <a href="../index.html"><img class="logo" id="logo" src="./images/logo.png"
-                        alt="Logo MyMixx"></a>
+    <body class="index">
+        <nav>
+            <div class="navmain" id="navmain">
+                <div class="row vertical-align">
+                    <div class="col-2">
+                        <a class="branding" href="index.html"><img id="logo"
+                                src="./images/logo.svg" alt="Logo MyMixx"></a>
+                    </div>
+                    <div class="col-10">
+                        <ul>
+                            <li><a href="index.html">Über mich</a></li>
+                            <li><a href="#">Lebenslauf</a></li>
+                            <li><a href="#">Referenzen</a></li>
+                            <li><a href="/">Kontakt</a></li>
+                        </ul>
+
+                    </div>
+                </div>
             </div>
-            <div class="col-10">
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="kontakt.html">Kontakt</a></li>
-                    <li><a href="anfahrt.html">Anfahrt</a></li>
-                </ul>
-    
+        </nav>
+
+        <header id="header">
+            <div class="img-absolute-ct">
+                <img src="./images/header.png" alt>
             </div>
-        </div>
-    </div>
+        </header>
 
-    <header id="header">
-    </header>
+        <main>
+            <div class="row center section margin-top">
+                <div class="col large-col-11 giant-col-9 form-over-container">
+                    <h1>Kontakt<span>Schicken Sie uns Ihre Anfrage</span></h1>
+                    <form id="formular">
 
-    <section class="section firstSection" id="firstSection">
-        <div class="row center margin-top">
-            <div class="col large-col-11 giant-col-9 form-over-container">
-                <h1>Kontakt<span>Schicken Sie uns Ihre Anfrage</span></h1>
-                <form id="formular">
+                        <div class="row form-container center" id="section-7">
+                            <div
+                                class="col medium-col-11 large-col-10 form-section">
+                                <div class="row">
+                                    <div class="col large-col-6 form-field">
+                                        <label for="vor-und-nachname"></label>
+                                        <input type="text"
+                                            placeholder="Vor-und-Nachname"
+                                            id="vor-und-nachname"
+                                            name="vor-und-nachname" required>
+                                        <label for="email"></label>
+                                        <input type="email"
+                                            placeholder="Deine E-Mail Adresse"
+                                            id="email" name="email" required>
+                                        <label for="phone"></label>
+                                        <input type="text"
+                                            placeholder="Deine Telefonnummer"
+                                            id="phone" name="phone" required>
+                                    </div>
 
-                    <div class="row form-container center" id="section-7">
-                        <div class="col medium-col-11 large-col-10 form-section">
-                            <div class="row">
-                                <div class="col large-col-6 form-field">
-                                    <label for="vor-und-nachname"></label>
-                                    <input type="text" placeholder="Vor-und-Nachname" id="vor-und-nachname" name="vor-und-nachname" required>
-                                    <label for="email"></label>
-                                    <input type="email" placeholder="Deine E-Mail Adresse" id="email" name="email" required>
-                                    <label for="phone"></label>
-                                    <input type="text" placeholder="Deine Telefonnummer" id="phone" name="phone" required>
-                                </div>
+                                    <div class="col large-col-6 form-field">
+                                        <label for="nachricht"
+                                            class="date-label"></label>
+                                        <textarea id="nachricht"
+                                            class="date-input"
+                                            placeholder="Ihre Nachricht"
+                                            required></textarea>
 
-                                <div class="col large-col-6 form-field">
-                                    <label for="nachricht" class="date-label"></label>
-                                    <textarea id="nachricht" class="date-input" placeholder="Ihre Nachricht" required></textarea>
-                                    
-                                    <div class="datenschutz">
-                                        <label for="datenschutz">Ich habe die Datenschutzerklärung gelesen und akzeptiert.</label>
-                                        <input type="checkbox" name="datenschutz" id="datenschutz" required>    
+                                        <div class="datenschutz">
+                                            <label for="datenschutz">Ich habe
+                                                die Datenschutzerklärung gelesen
+                                                und akzeptiert.</label>
+                                            <input type="checkbox"
+                                                name="datenschutz"
+                                                id="datenschutz" required>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="col medium-col-11 large-col-10 form-section">
-                            <div class="button-container">
-                                <button type="submit" id="Form-submit" class="btn-submit"><span>Nachricht abschicken</span></button>
+                            <div
+                                class="col medium-col-11 large-col-10 form-section">
+                                <div class="button-container">
+                                    <button type="submit" id="Form-submit"
+                                        class="btn-submit"><span>Nachricht
+                                            abschicken</span></button>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                </form>
+                    </form>
+                </div>
+            </div>
+            <div id="popup" class="popup">
+                <div class="popup-content">
+                    <h2>Vielen Dank!</h2>
+                    <p>Ihre Nachricht wurde erfolgreich abgeschickt.</p>
+                    <button id="closePopup" onclick="closePopup()"
+                        class="btn">Schließen</button>
+                </div>
+            </div>
+        </main>
+        <div class="mobilnav">
+            <a class="branding" href="index.html">
+                <img src="./images/logo.svg" alt>
+            </a> <img src="./images/icons/navicon.svg" class="navbtn"
+                alt="burger icon" id="navbtn">
+            <div class="mobilnavopen" id="navlistmobil">
+                <div id="navbtnclose"></div>
+                <ul class="navlist">
+                    <li><a href="../index.html">Über mich</a></li>
+                    <li><a href="#">Lebenslauf</a></li>
+                    <li><a href="#">Referenzen</a></li>
+                    <li><a href="/">Kontakt</a></li>
+                </ul>
             </div>
         </div>
-    </section>
-
-    <div id="popup" class="popup">
-        <div class="popup-content">
-            <h2>Vielen Dank!</h2>
-            <p>Ihre Nachricht wurde erfolgreich abgeschickt.</p>
-            <button id="closePopup" onclick="closePopup()" class="btn">Schließen</button>
-        </div>
-    </div>
-
-    <div class="merkzettel-container" id="merkzettel-container">
-        <div class="zettel" id="zettel">
-            <img src="./images/zettel.png" alt="Merkzettel">
-            <span class="item-count-badge" id="item-count-badge">0</span>
-        </div>
-       
-        <div class="bestlluebersicht-container" id="bestelluebersicht">
-            <img id="merkzettel-close-btn" class="merkzettel-close-btn" src="./images/icons/zettel-close.svg" alt="Merkzettel schließen">
-            <div class="bestell-container">
-                <h2>Bestellübersicht:</h2>
-
-                <div class="bestelluebersicht">
-                    <h3>ausgewählte Artikel:</h3>
-                    <div class="order-summary"><p>Keine Artikel ausgewählt</p></div>
-                    <div class="summe">
-                        <div class="weights">
-                            <div class="use"></div>
-                            <div class="free"></div>
-                        </div>
-                        <div>Gesamtsumme:</div><div class="total-price">0.00 €</div>
-                    </div>
-                    <div class="btn clear-selection">Auswahl entfernen</div> <!-- Button hinzugefügt -->
-                </div>
-            </div>        
-        </div>
-        <div class="merkzettel-close" id="merkzettel-close"></div>
-
-    </div>
-    </div>
-
-
-
-
-
-    <div class="mobilnav">
-        <a href="../index.html">
-            <img src="./images/logo.svg" alt="" class="logomobil">
-        </a>
-        <img src="./images/icons/navicon.svg" class="navbtn" alt="burger icon" id="navbtn">
-        <div class="mobilnavopen" id="navlistmobil">
-            <div id="navbtnclose"></div>
-            <ul class="navlist">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="kontakt.html">Kontakt</a></li>
-                <li><a href="anfahrt.html">Anfahrt</a></li>
-            </ul>
-        </div>
-    </div>
-    <script src="./js/nav.js"></script>
-    <script src="./js/navmob.js"></script>
-    <script src="./js/lightbox.js"></script>
-    <script src="./js/form.js"></script>
-    <script src="./js/collapser.js"></script>
-    <script src="./js/form-calculate.js"></script>
-</body>
+        <script src="./js/nav.js"></script>
+        <script src="./js/animated-scroll.js"></script>
+        <script src="./js/navmob.js"></script>
+        <script src="./js/lightbox.js"></script>
+        <script src="./js/collapser.js"></script>
+    </body>
 
 </html>
