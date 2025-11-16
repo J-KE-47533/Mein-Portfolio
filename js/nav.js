@@ -15,6 +15,7 @@ navclose.onclick = function () {
 
 document.addEventListener('DOMContentLoaded', () => {
     const navi = document.getElementById('navmain');
+    const navimob = document.getElementById('navmob');
     const logo = document.getElementById('logo');
 
     window.addEventListener('scroll', () => {
@@ -23,11 +24,17 @@ document.addEventListener('DOMContentLoaded', () => {
             logo.style.width = "60%";
             navMain.style.backgroundColor = "rgba(0, 0, 0, 0.75)";
             navMain.style.backdropFilter = "blur(6px)";
+            navimob.style.backgroundColor = "rgba(0, 0, 0, 0.75)";
+            navimob.style.borderBottom = "1px solid white";
+            navimob.style.backdropFilter = "blur(6px)";
         } else {
             navi.style.padding = "2rem 0";
             logo.style.width = "100%";
             navMain.style.backgroundColor = "rgba(0, 0, 0, 0)";
             navMain.style.backdropFilter = "blur(0)";
+            navimob.style.backgroundColor = "rgba(0, 0, 0, 0)";
+            navimob.style.borderBottom = "1px solid transparent";
+            navimob.style.backdropFilter = "blur(0)";
         }
     })
 })

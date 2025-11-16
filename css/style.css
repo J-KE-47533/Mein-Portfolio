@@ -296,12 +296,14 @@ ul {
     top: 0;
     left: 0;
     width: 100vw;
-    height: 3rem;
-    background-color: var(--bg-color);
+    height: 4rem;
+    padding: .7rem 0;
+    background-color: transparent;
     display: flex;
     justify-content: space-between;
     align-items: center;
     z-index: 99999999;
+    transition: 0.3s;
 }
 
 
